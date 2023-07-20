@@ -1,4 +1,4 @@
-# Kindle cLIPPings NAVigator
+# Kindle cLIPpings NAVigator
 
 ![](https://raw.githubusercontent.com/skogsgren/klip_nav/main/img/screenshot1.png)
 
