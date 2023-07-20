@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from utils import Highlight, SortedClippings
+from klip_nav.utils import Highlight, SortedClippings
 import urwid
 import clipboard
 

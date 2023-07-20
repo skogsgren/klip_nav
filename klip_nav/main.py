@@ -1,9 +1,8 @@
-from tui import App
-from utils import SortedClippings
+from klip_nav.tui import App
+from klip_nav.utils import SortedClippings
 import argparse
 
-
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser(
         prog="klip-nav", description="TUI for kindle clippings"
     )
@@ -13,3 +12,7 @@ if __name__ == "__main__":
         clippings=SortedClippings(args.clippings_file),
         filename=args.clippings_file,
     )
+
+
+if __name__ == "__main__":
+    main()

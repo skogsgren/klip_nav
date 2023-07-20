@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "klip_nav"
-version = "0.1"
+version = "0.0.5"
 authors = [
   { name="skogsgren", email="6107181+skogsgren@users.noreply.github.com" },
 ]
@@ -25,6 +25,8 @@ dependencies = [
 "Homepage" = "https://github.com/skogsgren/klip-nav"
 "Bug Tracker" = "https://github.com/skogsgren/klip-nav/issues"
 
+[project.scripts]
+klip_nav = "klip_nav.main:main"
 
 [project.optional-dependencies]
 test = [
@@ -34,8 +36,6 @@ test = [
 ]
 
 [tool.hatch.build.targets.sdist]
-# Specify which files and packages to include in the source distribution
-# Notably, exclude "tests" and "examples"
 include = [
     "/klip_nav",
     "/LICENSE",
