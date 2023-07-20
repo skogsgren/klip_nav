@@ -1,14 +1,14 @@
-# **Kindle c**LIPP**ings **NAV**igator
+# **Kindle cLIPPings NAVigator
 
-![](img/screenshot1.png)
+![](https://raw.githubusercontent.com/skogsgren/klip_nav/main/img/screenshot1.png)
 
 Opinionated TUI Python program to explore Kindle clippings on a book-to-book
 basis.
 
-It was written to encompass my workflow where I need easy access to 
+It was written to encompass my workflow where I need easy access to
 copy-to-clipboard for note/highlight contents (useful for making flashcards).
 
-![](img/screenshot2.png)
+![](https://raw.githubusercontent.com/skogsgren/klip_nav/main/img/screenshot2.png)
 
 ## Installation
 
