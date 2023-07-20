@@ -1,5 +1,6 @@
 # Kindle cLIPpings NAVigator
 
+[![pypi](https://img.shields.io/pypi/v/klip-nav.svg)](https://pypi.org/pypi/klip-nav)
 ![build status](https://github.com/skogsgren/klip_nav/workflows/Run%20tests/badge.svg)
 
 ![](https://raw.githubusercontent.com/skogsgren/klip_nav/main/img/screenshot1.png)
@@ -15,14 +16,14 @@ copy-to-clipboard for note/highlight contents (useful for making flashcards).
 ## Installation
 
 ```
-pip install klip_nav
+pip install klip-nav
 ```
 
 or if on a distro without global `pip` (like Debian Bookworm) use a helper
 like `pipx`:
 
 ```
-pipx install klip_nav
+pipx install klip-nav
 ```
 
 ## Usage
