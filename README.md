@@ -1,5 +1,7 @@
 # Kindle cLIPpings NAVigator
 
+![build status](https://github.com/skogsgren/klip_nav/workflows/Run%20tests/badge.svg)
+
 ![](https://raw.githubusercontent.com/skogsgren/klip_nav/main/img/screenshot1.png)
 
 Opinionated TUI Python program to explore Kindle clippings on a book-to-book
